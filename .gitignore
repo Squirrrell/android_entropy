@@ -1,0 +1,47 @@
+# Android / Gradle / Android Studio
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle
+.gradle/
+**/build/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+
+# Local SDK/NDK and machine-specific config
+local.properties
+
+# Keystores and signing configs (do NOT commit your keys)
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Outputs / packages
+*.apk
+*.ap_
+*.aab
+*.aar
+
+# Logs and reports
+*.log
+*.hprof
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+out/
+
+# Kotlin/Java build caches (handled by **/build/ above, but keep for safety)
+.kotlinc/
+.kotlin/
+
+# Do not ignore the Gradle wrapper jar – keep it in VCS
+!gradle/wrapper/gradle-wrapper.jar
