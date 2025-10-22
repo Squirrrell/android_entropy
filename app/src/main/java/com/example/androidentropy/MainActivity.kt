@@ -13,6 +13,7 @@ import android.widget.Toast
 import kotlin.math.ln
 
 class MainActivity : AppCompatActivity() {
+	private var lastHValue: String? = null
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		// Force night mode to ensure dark theme background
@@ -36,20 +37,22 @@ class MainActivity : AppCompatActivity() {
 				return@setOnClickListener
 			}
 			val h = entropyBinary(p)
-			out.text = String.format("p=%.6f, 1-p=%.6f\nEntropy H=%.6f bits", p, 1.0 - p, h)
+			val hStr = String.format("%.6f", h)
+			out.text = String.format("p=%.6f, 1-p=%.6f\nEntropy H=%s bits", p, 1.0 - p, hStr)
+			lastHValue = hStr
 			btnCopy.isEnabled = true
 		}
 
 		btnCopy.setOnClickListener {
-			val text = out.text?.toString() ?: ""
+			val text = lastHValue ?: ""
 			if (text.isBlank()) {
-				Toast.makeText(this, "No result to copy", Toast.LENGTH_SHORT).show()
+				Toast.makeText(this, "No H value to copy", Toast.LENGTH_SHORT).show()
 				return@setOnClickListener
 			}
 			val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-			val clip = ClipData.newPlainText("Entropy Result", text)
+			val clip = ClipData.newPlainText("H", text)
 			clipboard.setPrimaryClip(clip)
-			Toast.makeText(this, "Copied to clipboard", Toast.LENGTH_SHORT).show()
+			Toast.makeText(this, "Copied H to clipboard", Toast.LENGTH_SHORT).show()
 		}
 	}
 

@@ -2,7 +2,7 @@
 <resources>
     <color name="app_bg">#121212</color>
     <color name="text_primary">#FFFFFF</color>
-    <string name="app_name">Android Entropy</string>
+    <string name="app_name">ML_Entropy</string>
     <style name="Theme.AndroidEntropy" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
 		
 	</style>
