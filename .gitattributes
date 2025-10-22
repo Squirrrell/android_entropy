@@ -1,0 +1,26 @@
+# Normalize line endings across platforms
+* text=auto
+
+# Use LF for unix-y scripts and source files
+*.sh text eol=lf
+*.kt text eol=lf
+*.kts text eol=lf
+*.gradle text eol=lf
+*.gradle.kts text eol=lf
+*.properties text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+
+# Keep Windows endings for batch files
+*.bat text eol=crlf
+
+# Treat common binary assets as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.jar binary
+*.keystore binary
+*.jks binary

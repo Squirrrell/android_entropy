@@ -2,6 +2,7 @@
 
 # IDE files
 .idea/
+/.vscode/
 *.iml
 *.ipr
 *.iws
@@ -45,3 +46,4 @@ out/
 
 # Do not ignore the Gradle wrapper jar – keep it in VCS
 !gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
