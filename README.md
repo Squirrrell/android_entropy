@@ -5,9 +5,8 @@ Minimal Android Studio project that opens an activity to compute binary entropy 
 How to open
 
 1. Open Android Studio.
-2. Choose "Open" and select the folder: `C:/Users/denis/Desktop/android_entropy`.
-3. Let Android Studio import the Gradle project and download the Gradle wrapper and dependencies.
-4. Run on an emulator or device.
+2. Let Android Studio import the Gradle project and download the Gradle wrapper and dependencies.
+3. Run on an emulator or device.
 
 Notes
 
