@@ -1,12 +1,15 @@
 R_DEF: Internal format may change without notice
 local
 color app_bg
+color ic_launcher_background
 color text_primary
+drawable ml_image
 id btnCompute
 id btnCopyResult
 id inputP
 id txtResult
 layout activity_main
 mipmap ic_launcher
+mipmap ic_launcher_round
 string app_name
 style Theme.AndroidEntropy

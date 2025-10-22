@@ -1,11 +1,19 @@
 [
     {
-        "merged": "com.example.androidentropy.app-debug-28:/layout_activity_main.xml.flat",
-        "source": "com.example.androidentropy.app-main-30:/layout/activity_main.xml"
+        "merged": "com.example.androidentropy.app-debug-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.androidentropy.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\denis\\.gradle\\daemon\\8.7\\com.example.androidentropy.app-debug-28:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\denis\\.gradle\\daemon\\8.7\\com.example.androidentropy.app-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.androidentropy.app-debug-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.androidentropy.app-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.androidentropy.app-debug-28:/drawable_ml_image.png.flat",
+        "source": "com.example.androidentropy.app-main-30:/drawable/ml_image.png"
     },
     {
         "merged": "C:\\Users\\denis\\.gradle\\daemon\\8.7\\com.example.androidentropy.app-debug-28:\\mipmap_ic_launcher.png.flat",

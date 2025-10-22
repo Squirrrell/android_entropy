@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:1:1-19:12
-INJECTED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:1:1-19:12
-INJECTED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:1:1-19:12
-INJECTED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:1:1-19:12
+ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:1:1-21:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\denis\.gradle\caches\transforms-4\a497a749dafde5f7be025c48abc1ebc9\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\denis\.gradle\caches\transforms-4\9f152211f368ddf8b167627d72946a31\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\denis\.gradle\caches\transforms-4\3284b1fe802a3f384d6e1862779d2989\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
@@ -54,8 +54,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\denis\.gradle\caches\transform
 	xmlns:android
 		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:1:11-69
 application
-ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:4:2-17:16
-INJECTED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:4:2-17:16
+ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:4:2-19:16
+INJECTED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:4:2-19:16
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\denis\.gradle\caches\transforms-4\a497a749dafde5f7be025c48abc1ebc9\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\denis\.gradle\caches\transforms-4\a497a749dafde5f7be025c48abc1ebc9\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\denis\.gradle\caches\transforms-4\3284b1fe802a3f384d6e1862779d2989\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
@@ -78,26 +78,30 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\denis\.gradle\cach
 		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:7:3-29
 	android:label
 		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:6:3-35
+	android:roundIcon
+		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:9:3-48
+	android:icon
+		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:8:3-37
 	android:allowBackup
 		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:5:3-29
 	android:theme
-		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:8:3-46
+		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:10:3-46
 activity#com.example.androidentropy.MainActivity
-ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:9:3-16:14
+ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:11:3-18:14
 	android:exported
-		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:11:4-27
+		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:13:4-27
 	android:name
-		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:10:4-32
+		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:12:4-32
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:12:4-15:20
+ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:14:4-17:20
 action#android.intent.action.MAIN
-ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:13:5-57
+ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:15:5-57
 	android:name
-		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:13:13-54
+		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:15:13-54
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:14:5-65
+ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:16:5-65
 	android:name
-		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:14:15-62
+		ADDED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml:16:15-62
 uses-sdk
 INJECTED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\denis\Desktop\android_entropy\app\src\main\AndroidManifest.xml
