@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.androidentropy.app-debug-28:/layout_activity_main.xml.flat",
+        "source": "com.example.androidentropy.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\denis\\.gradle\\daemon\\8.7\\com.example.androidentropy.app-debug-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\denis\\.gradle\\daemon\\8.7\\com.example.androidentropy.app-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\denis\\.gradle\\daemon\\8.7\\com.example.androidentropy.app-debug-28:\\mipmap_ic_launcher.png.flat",
+        "source": "C:\\Users\\denis\\.gradle\\daemon\\8.7\\com.example.androidentropy.app-main-30:\\mipmap\\ic_launcher.png"
+    }
+]
